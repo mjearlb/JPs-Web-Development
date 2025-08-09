@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import jpsLogo from './assets/JPs-logo.jpg'
 import './App.css'
 
 function App() {
@@ -10,10 +9,10 @@ function App() {
     <>
       <div>
         <a href="https://jpswineandspirits.com/" target="_blank">
-          <img src="/JPs-logo.jpg" className="logo" alt="JPs logo" />
+          <img src={jpsLogo} className="logo" alt="JPs logo" />
         </a>
         <a href="#" onClick={e => e.preventDefault()}>
-          <img src="/JPs-logo.jpg" className="logo" alt="JPs logo" />
+          <img src={jpsLogo} className="logo" alt="JPs logo" />
         </a>
       </div>
       <h1>JP's Fine Wine and Spirits</h1>
@@ -26,7 +25,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Click on the left JP's logo to access our site!
       </p>
     </>
   )
