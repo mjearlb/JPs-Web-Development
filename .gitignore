@@ -1,0 +1,5 @@
+# Node modules folder (contains installed packages)
+my-app/node_modules/
+
+# Build output folder
+my-app/dist/
