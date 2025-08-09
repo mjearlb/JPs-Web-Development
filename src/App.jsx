@@ -9,14 +9,14 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <a href="https://jpswineandspirits.com/" target="_blank">
+          <img src="/JPs-logo.jpg" className="logo" alt="JPs logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a href="#" onClick={e => e.preventDefault()}>
+          <img src="/JPs-logo.jpg" className="logo" alt="JPs logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>JP's Fine Wine and Spirits</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
