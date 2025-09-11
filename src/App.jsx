@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import jpsLogo from './assets/JPs-logo.jpg'
 import './App.css'
+import { Link } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,9 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <Link to="/map">
+          <button>Map</button>
+        </Link>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
